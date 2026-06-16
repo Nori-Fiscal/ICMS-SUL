@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-06-08T19:22:24",
+  "rows": 61706,
+  "unique_ncm_exact": 10412,
+  "unique_ncm_prefix": 945,
+  "by_lista": {
+    "Anexo II - Tarifas brasileiras diferentes da TEC": 9410,
+    "Anexo III - Setor Aeronautico": 945,
+    "Anexo IV - Desabastecimento": 123,
+    "Anexo V - LETEC": 341,
+    "Anexo VI - LEBITBK": 1410,
+    "Anexo VIII - Concessões OMC": 61,
+    "Anexo IX - DCC": 128,
+    "Anexo X - Automotivos ACE-14": 18,
+    "Lessin - TEB": 2512,
+    "Lessin - Desabastecimento": 49,
+    "Lessin - LETEC": 309,
+    "Lessin - Auto_Redução": 7925,
+    "Lessin - Ex_BK": 15535,
+    "Lessin - LEBIT/BK": 70,
+    "Lessin - Auto_BK-Autopropulsado": 423,
+    "Lessin - Ex_BIT": 1836,
+    "Lessin - Cronograma": 20,
+    "Cotas CAMEX vigentes": 431,
+    "Acompanhamento das cotas de importacao": 154,
+    "Modelos LPCO Decex - Cotas": 166,
+    "Ex-tarifarios BK/BIT vigentes": 19381,
+    "Ex-tarifarios BK Autopropulsado": 459
+  },
+  "sources": [
+    {
+      "file": "res_272_anexos_i_x.xlsx",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/01-06-2026-anexos-i-a-x-resolucao-gecex-272-21-1.xlsx",
+      "updated_at": "2026-06-01"
+    },
+    {
+      "file": "lessin_consolidada.xlsx",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/lessin.xlsx",
+      "updated_at": "2026-06-08"
+    },
+    {
+      "file": "cotas_camex_vigentes.ods",
+      "url": "https://www.gov.br/siscomex/pt-br/informacoes/importacaoo/2026.05.21_CotasCAMEXvigentes.ods",
+      "updated_at": "2026-05-21"
+    },
+    {
+      "file": "cotas_camex_acompanhamento.ods",
+      "url": "https://www.gov.br/siscomex/pt-br/informacoes/importacaoo/2026.05.30_Tabeladeacompanhamentodascotasdeimportao.ods",
+      "updated_at": "2026-05-30"
+    },
+    {
+      "file": "modelos_lpco_cotas.ods",
+      "url": "https://www.gov.br/siscomex/pt-br/informacoes/importacaoo/2026.05.21_ModelosLPCO_Decex_Cotas.ods",
+      "updated_at": "2026-05-21"
+    },
+    {
+      "file": "ex_tarifarios_bk_bit_vigentes.xlsx",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/sdic/ex-tarifario/pda-de-ex-tarifarios/ex-tarifarios-vigentes.xlsx",
+      "updated_at": "2026-06-08"
+    },
+    {
+      "file": "ex_tarifarios_bk_auto_vigentes.xlsx",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/sdic/setor-automotivo/bk-autopropulsado/ExTarifariosVigentes_BKAUTO2025dezRes841.xlsx",
+      "updated_at": "2025-12-01"
+    }
+  ],
+  "notes": [
+    "Anexo I - TEC foi excluido do alerta porque contem a tarifa geral e marcaria praticamente qualquer NCM valido.",
+    "Registros com NCM de 6 digitos sao tratados como prefixo para bater nos NCMs de 8 digitos do XML.",
+    "Registros com EX indicam que a classificacao depende do EX; o app alerta pelo NCM e mostra o EX para conferencia."
+  ]
+}

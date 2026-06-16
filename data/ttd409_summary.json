@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-06-09T10:45:55",
+  "rows": 62,
+  "items": 46,
+  "prefixes": 35,
+  "exact": 27,
+  "sources": [
+    "https://legislacao.sef.sc.gov.br/html/decretos/2009/dec_09_2128.htm",
+    "https://legislacao.sef.sc.gov.br/html/decretos/2026/dec_26_1453.htm"
+  ],
+  "notes": [
+    "A verificacao automatica cruza NCM/prefixo. A confirmacao final depende da descricao legal e da mercadoria importada.",
+    "Itens 62 a 76 possuem regra condicionada ao uso na agricultura ou pecuaria pelo Decreto SC 1.453/2026."
+  ]
+}
