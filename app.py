@@ -18,6 +18,13 @@ st.set_page_config(
     layout="wide",
 )
 
+# Inicializa banco de dados antes das abas
+try:
+    from modules.database import init_db
+    init_db()
+except Exception:
+    pass
+
 tab_icms, tab_nfe, tab_camex = st.tabs([
     "📊 ICMS SUL — TDD 409",
     "📄 NF-e Editor — Bling",

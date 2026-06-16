@@ -9,8 +9,9 @@ import sqlite3
 from datetime import date, datetime
 from typing import Dict, Optional, Tuple
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DB_PATH = os.path.join(BASE_DIR, "ean_database.db")
+_MODULE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.dirname(_MODULE_DIR)  # Sobe um nível: modules/ → raiz do projeto
+DB_PATH = os.path.join(_MODULE_DIR, "ean_database.db")
 CAMEX_CSV_PATH = os.path.join(BASE_DIR, "data", "camex_ncm_database.csv")
 TTD409_CSV_PATH = os.path.join(BASE_DIR, "data", "ttd409_exclusions.csv")
 
