@@ -16,7 +16,7 @@ import streamlit as st
 import traceback
 
 st.set_page_config(
-    page_title="ICMS ALBEMA - TDD 409",
+    page_title="Importhub",
     page_icon="📊",
     layout="wide",
 )

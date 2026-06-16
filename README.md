@@ -1,6 +1,6 @@
-# ICMS + NF-e Unificado
+# Importhub
 
-App Streamlit unificado para workflow de importação:
+App Streamlit unificado para workflow de importação — **Importhub**:
 
 - **📊 ICMS SUL — TDD 409**: Calcula ICMS TDD 409 a partir de planilha DUIMP/DI
 - **📄 NF-e Editor — Bling**: Processa XML NF-e para emissão no Bling com verificação CAMEX/TTD409

@@ -14,7 +14,7 @@ import streamlit as st
 import traceback
 
 st.set_page_config(
-    page_title="ICMS + NF-e Unificado",
+    page_title="Importhub",
     page_icon="📊",
     layout="wide",
 )
