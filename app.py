@@ -11,6 +11,7 @@ Cada aba é independente — uma não bloqueia a outra.
 """
 
 import streamlit as st
+import traceback
 
 st.set_page_config(
     page_title="ICMS + NF-e Unificado",
@@ -19,11 +20,14 @@ st.set_page_config(
 )
 
 # Inicializa banco de dados antes das abas
-try:
-    from modules.database import init_db
-    init_db()
-except Exception:
-    pass
+with st.spinner("Inicializando bases de dados CAMEX e TTD409..."):
+    try:
+        from modules.database import init_db
+        init_db()
+    except Exception as e:
+        st.error(f"Erro ao inicializar banco de dados: {e}")
+        st.exception(e)
+        st.stop()
 
 tab_icms, tab_nfe, tab_camex = st.tabs([
     "📊 ICMS SUL — TDD 409",
